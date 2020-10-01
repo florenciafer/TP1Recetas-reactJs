@@ -1,0 +1,23 @@
+.red {
+  background-color: hsl(9, 60%, 51%);
+  color: hsl(0, 0%, 100%);
+  padding: 8px 18px 24px 18px;
+  border-radius: 2rem;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+.orange {
+  background-color: rgb(255, 165, 0);
+  color: hsl(0, 0%, 100%);
+  padding: 4px 18px 29px 18px;
+  border-radius: 1.5rem;
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+}
+.tagContainer {
+  height: 10%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  margin-top: -70px;
+}

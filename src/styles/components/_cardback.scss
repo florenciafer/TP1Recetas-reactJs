@@ -1,0 +1,38 @@
+.CardBack-container{
+  width: 25rem;
+  height: 25rem;
+  padding: 1.5rem 0 2.5rem 0;
+  margin: 0.5em 0.5em;
+  align-items: center;
+}
+.CardBack {
+  border-radius: 3rem;
+  background-color: rgb(255, 165, 0);
+  transform: rotateY(180deg);
+    @media(max-width: 425px){
+width: 15rem;
+height: 15rem;
+transform: rotateY(180deg);
+}
+  
+}
+.puntaje{
+    font-size:21px;
+}
+.dificultad{
+      font-size: 1.5rem;
+}
+
+.Titulo-CardBack {
+  font-family: "Roboto", sans-serif;
+  color: hsl(0, 0%, 100%);
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.Subtitulo-CardBack {
+  font-family: "Roboto", sans-serif;
+  color: hsl(0, 0%, 100%);
+  font-size: 1.5rem;
+  margin-top: 0.5em;
+
+}

@@ -1,0 +1,21 @@
+.container {
+  display: grid;
+    grid-template-columns: 31% 31% 31%;
+    grid-template-rows: 15rem 15rem 15rem;
+    grid-gap: 20px;
+    /* padding-right: 1rem;
+    padding-left: 1rem; */
+  
+@media(max-width: 425px){
+display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
+}
+   
+}
+
+
+  
