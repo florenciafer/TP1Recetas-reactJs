@@ -10,9 +10,12 @@
   background-color: rgb(255, 165, 0);
   transform: rotateY(180deg);
     @media(max-width: 425px){
-width: 15rem;
-height: 15rem;
-transform: rotateY(180deg);
+  width: 23rem;
+    height: 14rem;
+}
+@media(max-width:425){
+    width: 18rem;
+    height: 15rem;
 }
   
 }
