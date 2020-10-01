@@ -3,11 +3,11 @@
   height: 25rem; */
   display: flex;
   flex-direction: column;
-  @media(max-width: 425px){
+  @media(max-width:768px){
   width: 23rem;
     height: 14rem;
 }
-@media(max-width:425){
+@media(max-width:425PX){
     width: 18rem;
     height: 15rem;
 }

@@ -9,11 +9,11 @@
   border-radius: 3rem;
   background-color: rgb(255, 165, 0);
   transform: rotateY(180deg);
-    @media(max-width: 425px){
+    @media(max-width:768px){
   width: 23rem;
     height: 14rem;
 }
-@media(max-width:425){
+@media(max-width:425px){
     width: 18rem;
     height: 15rem;
 }
